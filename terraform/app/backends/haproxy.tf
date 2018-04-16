@@ -145,13 +145,13 @@ resource "aws_alb_listener" "front_end" {
   }
 }
 
-resource "aws_route53_record" "web" {
-    zone_id = "${data.terraform_remote_state.vpc.public_zone}"
-    name = "${var.dns_alias}"
-    type = "A"
-    alias {
-        name = "${aws_alb.front.dns_name}"
-        zone_id = "${aws_alb.front.zone_id}"
-        evaluate_target_health = "false"
-    }
-}
+#resource "aws_route53_record" "web" {
+#    zone_id = "${data.terraform_remote_state.vpc.public_zone}"
+#    name = "${var.dns_alias}"
+#    type = "A"
+#    alias {
+#        name = "${aws_alb.front.dns_name}"
+#        zone_id = "${aws_alb.front.zone_id}"
+#        evaluate_target_health = "false"
+#    }
+#}

@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "tfstates"
+    bucket = "testype"
     key    = "demotiad/vpc"
     region = "eu-west-1"
   }
@@ -10,11 +10,11 @@ variable "region" {
   type = "string"
 }
 
-variable "cidr_block" {
+variable "vpc_name" {
   type = "string"
 }
 
-variable "vpc_name" {
+variable "cidr_block" {
   type = "string"
 }
 

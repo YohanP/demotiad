@@ -1,20 +1,20 @@
 {
     "variables": {
         "aws_region": "eu-west-1",
-        "aws_build_vpc": null,
-        "aws_build_subnet": null,
-        "aws_public_ip": "false",
+        "aws_build_vpc": "vpc-9525b9f3",
+        "aws_build_subnet": "subnet-9b9d39fd",
+        "aws_public_ip": "true",
         "aws_instance_type": "t2.micro",
-        "aws_distribution_user": null,
+        "aws_distribution_user": "admin",
 
-        "aws_source_ami": null,
+        "aws_source_ami": "ami-402f1a33",
         "aws_shared_account": "",
 
-        "distribution": null,
+        "distribution": "debian",
         "ssh_pty": "true",
 
-        "role": null,
-        "consul_version": null
+        "role": "consul",
+        "consul_version": "1.0.7" 
     },
     "builders": [{
         "type": "amazon-ebs",

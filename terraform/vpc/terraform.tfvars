@@ -6,6 +6,5 @@ vpc_name = "DEMO DDAY"
 
 domain = "demo.dday"
 
-key_name = "aws-dev"
+key_name = "admin"
 
-public_zone = "Z32YN70UZV2CU7"

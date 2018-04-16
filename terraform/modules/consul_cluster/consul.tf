@@ -43,7 +43,7 @@ variable "consul_servers" {
 
 variable "consul_version" {
   type = "string"
-  default = "0.7.0"
+  default = "1.0.7"
 }
 variable "consul_ami_basename" {
   type = "string"

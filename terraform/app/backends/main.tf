@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "tfstates"
+    bucket = "testype"
     key    = "demotiad/backends"
     region = "eu-west-1"
   }
