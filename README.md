@@ -1,3 +1,4 @@
+#
 The python application used in the demo ("vote") is derived from the docker [example-voting-vote](https://github.com/docker/example-voting-app). Many thanks to them!
 
 ## How to use the code from this demo
