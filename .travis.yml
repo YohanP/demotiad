@@ -6,7 +6,7 @@ env:
   - GREEN_STATE_KEY=demotiad/frontgreen
   - APP_DIR=app/vote
   - REPO_NAME=demotiad/vote
-  - WEBSITE=dday.awsdemo.d2-si.eu
+  - WEBSITE=front-alb-ecs-1794205304.eu-west-1.elb.amazonaws.com
   - TERRAFORM_VERSION=0.11.7
   - TOOLS_DIR=$HOME/tools
   - TERRAFORM_DIR=terraform/app/frontends
