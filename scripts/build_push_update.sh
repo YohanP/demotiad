@@ -53,5 +53,5 @@ rm -rf .terraform
 export AWS_DEFAULT_REGION=$AWS_REGION
 terraform init
 TF_VAR_voteapp_tag=${SHORT_COMMIT} terraform plan
-TF_VAR_voteapp_tag=${SHORT_COMMIT} terraform apply
+TF_VAR_voteapp_tag=${SHORT_COMMIT} terraform apply -auto-approve
 popd
