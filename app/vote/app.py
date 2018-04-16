@@ -107,7 +107,7 @@ def hello():
     score_a = str(int(score_a))
     score_b = str(int(score_b))
 
-    title=get_param("title",color,"DEVOPS D-DAY")
+    title=get_param("title",color,"DEVOPS D-DAY DD")
 
     message = "Served by stack " + color
     if is_enabled_feature("containerid",color):
